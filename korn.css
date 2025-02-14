@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: inter, sans-serif;
+   }
+
+
+form {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+}
+
+.box-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    padding: 30px;
+
+}
+
+footer {
+    display: flex;
+}
+   
+.contact-section-footer-2{
+display: flex;
+flex-direction: row;
+gap: 100%;
+
+}
+
+
+h1 {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 48px;
+    letter-spacing: -2%;
+    text-align: center;
+    
+
+
+    /*text-align: center;
+    width: 100%; 
+    color: #1a1a2c;
+    font-size: 44px;*/
+    
+}
+
+button {
+    color: white;
+    background-color: #1a1a2c;
+    border-radius: 16px;
+    width: 100%;
+    height: 56px;
+}
+
+
+ol {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}
+
+
+
+::placeholder {
+padding: 10px;
+border-radius: 12px;
+
+}
+    
+
+input::placeholder {
+    font-size: 18px;
+    color: gray;
+    opacity: 0.7;
+    height: 1000px;
+    
+}
+
+
+
+
+    
+
+
+
