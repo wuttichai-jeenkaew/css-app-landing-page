@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: o;
+}
+body{
+    background-color: rgba(224, 224, 237, 1);
+    padding: 24px;
+}
+header{
+    width: 1377;
+    height: 80;
+    top: 20px;
+    left: 20px;
+    justify-content: space-between;
+    border-radius: 99px;
+    padding-top: 12px;
+    padding-right: 80px;
+    padding-bottom: 12px;
+    padding-left: 80px;
+    border-bottom-width: 1px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 1)
+}
+.nav-logo{
+    width: 91.66666412353516;
+    height: 40;
+    display: flex;
+    align-items: center;
+}
+.nav-bar ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 10px;
+    
+}
+.nav-bar li{
+    width: 94;
+    height: 56;
+    padding-top: 16px;
+    padding-right: 24px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    gap: 10px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-style: solid;
+    /* text-decoration-offset: Auto; */
+    text-decoration-thickness: Auto;
+
+}
+.hero-section{
+    width: 1440;
+    height: 968;
+    top: 128px;
+    padding-top: 120px;
+    padding-right: 120px;
+    padding-bottom: 140px;
+    padding-left: 120px;
+    gap: 120px;
+    /* display: flex;
+    justify-items: center;
+    align-items: center;  */
+    background-color: rgba(224, 224, 237, 1)
+}
+.hero-section-box{
+    width: 1200;
+    height: 316;
+    gap: 40px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.hero-section-box h1{
+    width: 1200;
+    height: 84;
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 84px;
+    letter-spacing: -2%;
+    text-align: center;
+    
+}
+.hero-section-highlight{
+    color: rgba(94, 68, 255, 1);
+}
+.hero-section-box h3{
+    width: 1200;
+    height: 32;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #1A1A2C;
+    
+
+}
+.acme-apps-button{
+    width: 250px;
+    height: 40px;
+    border-radius: 999px;
+    padding-top: 8px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    background: rgba(86, 58, 255, 0.1);
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: rgba(94, 68, 255, 1);
+    border-style: none;
+    flex-direction: column;
+    
+}
+.start-trial-button{
+    width: 187px;
+    height: 56px;
+    border-radius: 16px;
+    padding-top: 16px;
+    padding-right: 36px;
+    padding-bottom: 16px;
+    padding-left: 36px;
+    gap: 6px;
+    background: #1A1A2C;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+    border-style: none;
+}
